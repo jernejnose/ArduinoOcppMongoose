@@ -5,6 +5,9 @@
 #ifndef AOCPPMONGOOSECLIENT_H
 #define AOCPPMONGOOSECLIENT_H
 
+#define AO_MG_VERSION_614 //use Mongoose 6.14 insted of 7
+#define AO_CA_CERT_LOCAL 1
+
 #if defined(ARDUINO) //fix for conflicting defitions of IPAddress on Arduino
 #include <Arduino.h>
 #include <IPAddress.h>
