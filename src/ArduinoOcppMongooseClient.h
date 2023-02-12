@@ -8,6 +8,8 @@
 #define AO_MG_VERSION_614 //use Mongoose 6.14 insted of 7
 #define AO_CA_CERT_LOCAL 1
 
+#define AO_DBG_LEVEL 0x05
+
 #if defined(ARDUINO) //fix for conflicting defitions of IPAddress on Arduino
 #include <Arduino.h>
 #include <IPAddress.h>
